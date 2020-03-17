@@ -1,9 +1,9 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>Tags on My New Hugo Site</title>
+   <title>Tags on XuanZai99</title>
    <link>https://xuanzai99.github.io/tags/</link>
-   <description>Recent content in Tags on My New Hugo Site</description>
+   <description>Recent content in Tags on XuanZai99</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
    
@@ -11,42 +11,22 @@
    
    
      <item>
-       <title>4</title>
-       <link>https://xuanzai99.github.io/post/4/</link>
-       <pubDate>Tue, 17 Mar 2020 21:15:04 +0800</pubDate>
-       
-       <guid>https://xuanzai99.github.io/post/4/</guid>
-       <description>&lt;h1 id=&#34;123213123&#34;&gt;123213123&lt;/h1&gt;
-</description>
-     </item>
-   
-     <item>
-       <title>3</title>
-       <link>https://xuanzai99.github.io/post/3/</link>
-       <pubDate>Tue, 17 Mar 2020 21:08:04 +0800</pubDate>
-       
-       <guid>https://xuanzai99.github.io/post/3/</guid>
-       <description>&lt;h1 id=&#34;11&#34;&gt;11&lt;/h1&gt;
-</description>
-     </item>
-   
-     <item>
-       <title>2</title>
-       <link>https://xuanzai99.github.io/post/2/</link>
+       <title>Java编程思想书籍学习记录</title>
+       <link>https://xuanzai99.github.io/post/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E4%B9%A6%E7%B1%8D%E5%AD%A6%E4%B9%A0/</link>
        <pubDate>Tue, 17 Mar 2020 20:33:17 +0800</pubDate>
        
-       <guid>https://xuanzai99.github.io/post/2/</guid>
-       <description>&lt;h1 id=&#34;hello2&#34;&gt;hello2&lt;/h1&gt;
+       <guid>https://xuanzai99.github.io/post/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E4%B9%A6%E7%B1%8D%E5%AD%A6%E4%B9%A0/</guid>
+       <description>&lt;h1 id=&#34;第一章&#34;&gt;第一章&lt;/h1&gt;
 </description>
      </item>
    
      <item>
-       <title>1</title>
-       <link>https://xuanzai99.github.io/post/1/</link>
+       <title>Java学习路线</title>
+       <link>https://xuanzai99.github.io/post/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</link>
        <pubDate>Tue, 17 Mar 2020 20:20:33 +0800</pubDate>
        
-       <guid>https://xuanzai99.github.io/post/1/</guid>
-       <description>&lt;h1 id=&#34;hello1&#34;&gt;hello1&lt;/h1&gt;
+       <guid>https://xuanzai99.github.io/post/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</guid>
+       <description>&lt;h1 id=&#34;java学习路线-基础&#34;&gt;java学习路线-基础&lt;/h1&gt;
 </description>
      </item>
    
