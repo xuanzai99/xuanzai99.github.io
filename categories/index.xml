@@ -26,8 +26,109 @@
        <pubDate>Tue, 17 Mar 2020 20:20:33 +0800</pubDate>
        
        <guid>https://xuanzai99.github.io/post/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</guid>
-       <description>&lt;h1 id=&#34;java学习路线-基础&#34;&gt;java学习路线-基础&lt;/h1&gt;
+       <description>&lt;h1 id=&#34;基础知识&#34;&gt;基础知识&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;编程语言：java python c&lt;/li&gt;
+&lt;li&gt;基本语法 （算法第四版）&lt;/li&gt;
+&lt;li&gt;基本网络知识：tcp/ip http/https&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;工具方面&#34;&gt;工具方面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;操作系统：linux (CentOS\Ubuntu\Fe..)&lt;/li&gt;
+&lt;li&gt;代码管理：svn/git&lt;/li&gt;
+&lt;li&gt;持续集成(CI/CD):jenkins&lt;/li&gt;
+&lt;li&gt;java的项目管理工具：maven/gradle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;框架方面&#34;&gt;框架方面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ssm:spring +springmvc+mybatis(流行)&lt;/li&gt;
+&lt;li&gt;spring boot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;各种中间件&#34;&gt;各种中间件&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;MQ 消息队列&lt;/li&gt;
+&lt;li&gt;RPC 通讯框架 gRPC thrift dubbo springcloud&lt;/li&gt;
+&lt;li&gt;elasticsearch 收索引擎 数据库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;数据库&#34;&gt;数据库&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL：mysql/postgre sql&lt;/li&gt;
+&lt;li&gt;Nosql:redis memcached mongodb elasticsearch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;架构方面&#34;&gt;架构方面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;分布式/微服务架构&lt;/li&gt;
+&lt;li&gt;spring cloud&lt;/li&gt;
+&lt;li&gt;dubbo&lt;/li&gt;
+&lt;li&gt;rpc通信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;虚拟化容器化的技术&#34;&gt;虚拟化/容器化的技术&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 容器化&lt;/li&gt;
+&lt;li&gt;k8s kubernetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关注源码性能&#34;&gt;关注源码/性能&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;jdk源码以及部分设计思想&lt;/li&gt;
+&lt;li&gt;Spring 源码&lt;/li&gt;
+&lt;li&gt;JVM细节与排错&lt;/li&gt;
+&lt;li&gt;高并发/高可用&lt;/li&gt;
+&lt;/ul&gt;
 </description>
+     </item>
+   
+     <item>
+       <title></title>
+       <link>https://xuanzai99.github.io/post/markdown%E5%AD%A6%E4%B9%A0/</link>
+       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/markdown%E5%AD%A6%E4%B9%A0/</guid>
+       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;
+# 一级标题
+&lt;span style=&#34;color:#75715e&#34;&gt;## 二级标题
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### 三级标题
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### 四级标题
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### 五级标题
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### 六级标题
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    
+    
+=//粗体
+&lt;span style=&#34;font-weight:bold&#34;&gt;**你好呀**&lt;/span&gt;
+
+//斜体
+&lt;span style=&#34;font-style:italic&#34;&gt;*我喜欢你*&lt;/span&gt;
+
+//删除线
+&lt;span style=&#34;color:#f92672&#34;&gt;~~此内容为废弃内容~~&lt;/span&gt;
+    
+//引用书写语法如下：
+
+&amp;gt;此教程来自小小叶儿出品，版权所有，违版必究
+&amp;gt;&amp;gt;此教程来自小小叶儿出品，版权所有，违版必究
+&amp;gt;&amp;gt;&amp;gt;此教程来自小小叶儿出品，版权所有，违版必究
+    
+//分隔线（长度：根据内容而定）
+---
+//分割线（占全屏）
+***    
+    
+//图片插入
+![&lt;span style=&#34;color:#f92672&#34;&gt;图片名称&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;图片地址-可以本地：也可以网络&lt;/span&gt;)    
+
+//超链接
+[&lt;span style=&#34;color:#f92672&#34;&gt;点击跳转到我的GitHub&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;https://github.com/yerenping&lt;/span&gt;)
+
+//有序列表：序号+点+空格，生成列表 
+&lt;span style=&#34;color:#66d9ef&#34;&gt;1.&lt;/span&gt; 首页
+&lt;span style=&#34;color:#66d9ef&#34;&gt;2.&lt;/span&gt; 分类
+&lt;span style=&#34;color:#66d9ef&#34;&gt;3.&lt;/span&gt; 标题
+//无需列表：- + 空格
+&lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; 
+
+//鼠标右键--&amp;gt;插入--&amp;gt;表格
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
      </item>
    
  </channel>
