@@ -1,0 +1,44 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Categories on My New Hugo Site</title>
+   <link>https://xuanzai99.github.io/categories/</link>
+   <description>Recent content in Categories on My New Hugo Site</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>en-us</language>
+   
+       <atom:link href="https://xuanzai99.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+     <item>
+       <title>3</title>
+       <link>https://xuanzai99.github.io/post/3/</link>
+       <pubDate>Tue, 17 Mar 2020 21:08:04 +0800</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/3/</guid>
+       <description>&lt;h1 id=&#34;11&#34;&gt;11&lt;/h1&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>2</title>
+       <link>https://xuanzai99.github.io/post/2/</link>
+       <pubDate>Tue, 17 Mar 2020 20:33:17 +0800</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/2/</guid>
+       <description>&lt;h1 id=&#34;hello2&#34;&gt;hello2&lt;/h1&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>1</title>
+       <link>https://xuanzai99.github.io/post/1/</link>
+       <pubDate>Tue, 17 Mar 2020 20:20:33 +0800</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/1/</guid>
+       <description>&lt;h1 id=&#34;hello1&#34;&gt;hello1&lt;/h1&gt;
+</description>
+     </item>
+   
+ </channel>
+</rss>
