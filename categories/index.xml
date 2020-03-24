@@ -11,6 +11,191 @@
    
    
      <item>
+       <title>Java基础学习</title>
+       <link>https://xuanzai99.github.io/post/java%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</link>
+       <pubDate>Thu, 19 Mar 2020 18:23:20 +0800</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/java%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</guid>
+       <description>&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;数据类型&#34;&gt;数据类型&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;基本数据类型&#34;&gt;基本数据类型&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;整数型: byty,short,int,long&lt;/li&gt;
+&lt;li&gt;浮点型: float,double&lt;/li&gt;
+&lt;li&gt;布尔型: boolean&lt;/li&gt;
+&lt;li&gt;字符型: char&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;引用数据类型&#34;&gt;引用数据类型&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;字符串型String属于引用类型&lt;/li&gt;
+&lt;li&gt;String字符串不属于基本数据类型范畴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关于计算机存储单位&#34;&gt;关于计算机存储单位&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机只能识别二进制&lt;/li&gt;
+&lt;li&gt;1字节 = 8bit&lt;/li&gt;
+&lt;li&gt;1bit就是一个1或0&lt;/li&gt;
+&lt;li&gt;1KB = 1024byte&lt;/li&gt;
+&lt;li&gt;1MB = 1024KB&lt;/li&gt;
+&lt;li&gt;1GB = 1024MB&lt;/li&gt;
+&lt;li&gt;1TB = 1024GB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;数据类型占用字节数量byte-取值范围&#34;&gt;数据类型占用字节数量(byte)-取值范围&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;byte   1&lt;/li&gt;
+&lt;li&gt;short   2&lt;/li&gt;
+&lt;li&gt;int     4&lt;/li&gt;
+&lt;li&gt;long   8&lt;/li&gt;
+&lt;li&gt;float   4&lt;/li&gt;
+&lt;li&gt;double  8&lt;/li&gt;
+&lt;li&gt;boolean 1&lt;/li&gt;
+&lt;li&gt;char     2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二进制转换成十进制&#34;&gt;二进制转换成十进制&lt;/h2&gt;
+&lt;h2 id=&#34;十进制转换成二进制&#34;&gt;十进制转换成二进制&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;除以2,然后余数逆序输出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;什么是字符编码&#34;&gt;什么是字符编码？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;字符编码是人为定义的一套转换表&lt;/li&gt;
+&lt;li&gt;在字符编码中规定了一系列的文字对应的二进制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关于字符编码的发展过程&#34;&gt;关于字符编码的发展过程？&lt;/h2&gt;
+&lt;p&gt;-起初的时候计算机是不支持文字的,只支持科学计算.实际上计算机期初&lt;/p&gt;
+&lt;h2 id=&#34;转义字符&#34;&gt;转义字符&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;java语言中&amp;rdquo;&amp;quot;负责转义&lt;/li&gt;
+&lt;li&gt;\t表示制表符tab&lt;/li&gt;
+&lt;li&gt;\n表示换行&lt;/li&gt;
+&lt;li&gt;\ + 任何功能字符都可以变成普通字符&lt;/li&gt;
+&lt;li&gt;\u表示后面的是一个字符的unicode编码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;浮点型数据&#34;&gt;浮点型数据&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;注意:任意一个浮点型都比整数型空间大&lt;/li&gt;
+&lt;li&gt;浮点型数据默认都是double来处理&lt;/li&gt;
+&lt;li&gt;如果需要当做float类型来处理,需要在字面量后添加F/f&lt;/li&gt;
+&lt;li&gt;float和double存储数据的时候都是存储的近似值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基本类型转换规则&#34;&gt;基本类型转换规则&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;八种基本数据类型中,出boolean类型不能转换,剩下七种类型之间都可以进行转换&lt;/li&gt;
+&lt;li&gt;如何整数型字面量没有超出byte,short,char的取值范围,可以直接将其复制给byte,short,char类型的变量&lt;/li&gt;
+&lt;li&gt;小容量向大容量转换称为自动类型转换,容量从小到大的排序为:byte &amp;lt; short = char &amp;lt; int &amp;lt; long &amp;lt; float &amp;lt; double&lt;/li&gt;
+&lt;li&gt;大容量转换成小容量,称为强制类型转换,编写是 必须添加&amp;quot;强制类型转换符&amp;quot;但运行时可能会出现精度损失&lt;/li&gt;
+&lt;li&gt;多种数据类型做混合运算的时候,最终的结果类型是&amp;quot;最大容量&amp;quot;对应的类型。&lt;/li&gt;
+&lt;li&gt;char+short+byte混合运算的时候,会各自先转换成int再做运算&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;控制语句&#34;&gt;控制语句&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;选择语句&#34;&gt;选择语句&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;if语句&lt;/li&gt;
+&lt;li&gt;switch语句&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;循环语句&#34;&gt;循环语句&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;for循环&lt;/li&gt;
+&lt;li&gt;while循环&lt;/li&gt;
+&lt;li&gt;do..while..循环&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;转向语句&#34;&gt;转向语句&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;break&lt;/li&gt;
+&lt;li&gt;continue&lt;/li&gt;
+&lt;li&gt;return&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;if语句&#34;&gt;if语句&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;if语句是分支语句,也可以叫做条件语句&lt;/li&gt;
+&lt;li&gt;第一种写法:&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;if(布尔表达式)
+ {
+  java语句
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该语法的执行原理是:&lt;!-- raw HTML omitted --&gt;
+如何布尔表达式的结果是true,则执行大括号的中的程序,否则大括号中的代码不执行。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第二种写法:&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;if(布尔表达式)
+{
+ java语句
+}else{
+    java语句
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该语法的执行原理是:&lt;!-- raw HTML omitted --&gt;
+如果布尔表达式的结果式true,则执行分支1,分支2不执行.如果布尔表达式的结果是false,则执行分支2,分支1不执行&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第三种写法:&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;if(布尔表达式1)
+{
+
+    java语句
+
+}else if(布尔表达式2){
+
+    java语句
+
+}else if(布尔表达式3){
+
+    java语句
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该语法的执行原理是:&lt;!-- raw HTML omitted --&gt;
+先判断布尔表达式1,如果布尔表达式1为true,则执行分支1，,然后结束整个if语句。&lt;!-- raw HTML omitted --&gt;
+当布尔表达式1结果是false,那么会继续判断其他分支直到找到布尔表达式为true的分支进行执行&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;注意：对于if语句来说,在任何情况下只能有一个分支执行。if语句中只要有一个分支执行了,整个if语句就结束了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;当分支中java语句只有一条,可以省略大括号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制语句和控制语句之间是可以相互嵌套的&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>JavaSpringBoot学习</title>
+       <link>https://xuanzai99.github.io/post/javaspringboot%E5%AD%A6%E4%B9%A0/</link>
+       <pubDate>Thu, 19 Mar 2020 17:56:19 +0800</pubDate>
+       
+       <guid>https://xuanzai99.github.io/post/javaspringboot%E5%AD%A6%E4%B9%A0/</guid>
+       <description>&lt;h1 id=&#34;spring-boot&#34;&gt;Spring Boot&lt;/h1&gt;
+&lt;p&gt;简化J2ee&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Markdown学习</title>
        <link>https://xuanzai99.github.io/post/markdown%E5%AD%A6%E4%B9%A0/</link>
        <pubDate>Tue, 17 Mar 2020 23:50:46 +0800</pubDate>
@@ -150,8 +335,19 @@
 &lt;li&gt;jdk源码以及部分设计思想&lt;/li&gt;
 &lt;li&gt;Spring 源码&lt;/li&gt;
 &lt;li&gt;JVM细节与排错&lt;/li&gt;
-&lt;li&gt;高并发/高可用&lt;/li&gt;
+&lt;li&gt;高并发/高可用、&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;个人计划&#34;&gt;个人计划&lt;/h1&gt;
+&lt;h2 id=&#34;java&#34;&gt;Java&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;学习javaee&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;学习Spring框架&lt;/li&gt;
+&lt;li&gt;学习Spring boot框架&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;数据库-1&#34;&gt;数据库&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;学习Mysql数据库&lt;/li&gt;
+&lt;/ol&gt;
 </description>
      </item>
    

@@ -1,0 +1,276 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>XuanZai99</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="The HTML5 Herald" />
+<meta name="author" content="" /><meta property="og:title" content="Java基础学习" />
+<meta property="og:description" content="数据类型   基本数据类型    整数型: byty,short,int,long 浮点型: float,double 布尔型: boolean 字符型: char   引用数据类型    字符串型String属于引用类型 String字符串不属于基本数据类型范畴  关于计算机存储单位  计算机只能识别二进制 1字节 = 8bit 1bit就是一个1或0 1KB = 1024byte 1MB = 1024KB 1GB = 1024MB 1TB = 1024GB  数据类型占用字节数量(byte)-取值范围  byte 1 short 2 int 4 long 8 float 4 double 8 boolean 1 char 2  二进制转换成十进制 十进制转换成二进制  除以2,然后余数逆序输出  什么是字符编码？  字符编码是人为定义的一套转换表 在字符编码中规定了一系列的文字对应的二进制  关于字符编码的发展过程？ -起初的时候计算机是不支持文字的,只支持科学计算." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xuanzai99.github.io/post/java%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/" />
+<meta property="article:published_time" content="2020-03-19T18:23:20+08:00" />
+<meta property="article:modified_time" content="2020-03-19T18:23:20+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Java基础学习"/>
+<meta name="twitter:description" content="数据类型   基本数据类型    整数型: byty,short,int,long 浮点型: float,double 布尔型: boolean 字符型: char   引用数据类型    字符串型String属于引用类型 String字符串不属于基本数据类型范畴  关于计算机存储单位  计算机只能识别二进制 1字节 = 8bit 1bit就是一个1或0 1KB = 1024byte 1MB = 1024KB 1GB = 1024MB 1TB = 1024GB  数据类型占用字节数量(byte)-取值范围  byte 1 short 2 int 4 long 8 float 4 double 8 boolean 1 char 2  二进制转换成十进制 十进制转换成二进制  除以2,然后余数逆序输出  什么是字符编码？  字符编码是人为定义的一套转换表 在字符编码中规定了一系列的文字对应的二进制  关于字符编码的发展过程？ -起初的时候计算机是不支持文字的,只支持科学计算."/>
+
+<meta name="generator" content="Hugo 0.67.0" />
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://xuanzai99.github.io/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" /></head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">XuanZai99</a>
+            </h1>
+
+      <ul id="social-media">
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Java基础学习</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-03-19T18:23:20&#43;08:00">Mar 19, 2020</time>
+        </li>
+        
+
+        
+
+        <li>One minute read</li>
+    </ul>
+</aside>
+
+    
+
+    
+
+
+    <h1 id="heading"></h1>
+<h2 id="数据类型">数据类型</h2>
+<ol>
+<li>
+<h3 id="基本数据类型">基本数据类型</h3>
+</li>
+</ol>
+<ul>
+<li>整数型: byty,short,int,long</li>
+<li>浮点型: float,double</li>
+<li>布尔型: boolean</li>
+<li>字符型: char</li>
+</ul>
+<ol start="2">
+<li>
+<h3 id="引用数据类型">引用数据类型</h3>
+</li>
+</ol>
+<ul>
+<li>字符串型String属于引用类型</li>
+<li>String字符串不属于基本数据类型范畴</li>
+</ul>
+<h2 id="关于计算机存储单位">关于计算机存储单位</h2>
+<ul>
+<li>计算机只能识别二进制</li>
+<li>1字节 = 8bit</li>
+<li>1bit就是一个1或0</li>
+<li>1KB = 1024byte</li>
+<li>1MB = 1024KB</li>
+<li>1GB = 1024MB</li>
+<li>1TB = 1024GB</li>
+</ul>
+<h2 id="数据类型占用字节数量byte-取值范围">数据类型占用字节数量(byte)-取值范围</h2>
+<ul>
+<li>byte   1</li>
+<li>short   2</li>
+<li>int     4</li>
+<li>long   8</li>
+<li>float   4</li>
+<li>double  8</li>
+<li>boolean 1</li>
+<li>char     2</li>
+</ul>
+<h2 id="二进制转换成十进制">二进制转换成十进制</h2>
+<h2 id="十进制转换成二进制">十进制转换成二进制</h2>
+<ul>
+<li>除以2,然后余数逆序输出</li>
+</ul>
+<h2 id="什么是字符编码">什么是字符编码？</h2>
+<ul>
+<li>字符编码是人为定义的一套转换表</li>
+<li>在字符编码中规定了一系列的文字对应的二进制</li>
+</ul>
+<h2 id="关于字符编码的发展过程">关于字符编码的发展过程？</h2>
+<p>-起初的时候计算机是不支持文字的,只支持科学计算.实际上计算机期初</p>
+<h2 id="转义字符">转义字符</h2>
+<ul>
+<li>java语言中&rdquo;&quot;负责转义</li>
+<li>\t表示制表符tab</li>
+<li>\n表示换行</li>
+<li>\ + 任何功能字符都可以变成普通字符</li>
+<li>\u表示后面的是一个字符的unicode编码</li>
+</ul>
+<h2 id="浮点型数据">浮点型数据</h2>
+<ul>
+<li>注意:任意一个浮点型都比整数型空间大</li>
+<li>浮点型数据默认都是double来处理</li>
+<li>如果需要当做float类型来处理,需要在字面量后添加F/f</li>
+<li>float和double存储数据的时候都是存储的近似值</li>
+</ul>
+<h2 id="基本类型转换规则">基本类型转换规则</h2>
+<ol>
+<li>八种基本数据类型中,出boolean类型不能转换,剩下七种类型之间都可以进行转换</li>
+<li>如何整数型字面量没有超出byte,short,char的取值范围,可以直接将其复制给byte,short,char类型的变量</li>
+<li>小容量向大容量转换称为自动类型转换,容量从小到大的排序为:byte &lt; short = char &lt; int &lt; long &lt; float &lt; double</li>
+<li>大容量转换成小容量,称为强制类型转换,编写是 必须添加&quot;强制类型转换符&quot;但运行时可能会出现精度损失</li>
+<li>多种数据类型做混合运算的时候,最终的结果类型是&quot;最大容量&quot;对应的类型。</li>
+<li>char+short+byte混合运算的时候,会各自先转换成int再做运算</li>
+</ol>
+<h2 id="控制语句">控制语句</h2>
+<ol>
+<li>
+<h2 id="选择语句">选择语句</h2>
+</li>
+</ol>
+<ul>
+<li>if语句</li>
+<li>switch语句</li>
+</ul>
+<ol start="2">
+<li>
+<h2 id="循环语句">循环语句</h2>
+</li>
+</ol>
+<ul>
+<li>for循环</li>
+<li>while循环</li>
+<li>do..while..循环</li>
+</ul>
+<ol start="3">
+<li>
+<h2 id="转向语句">转向语句</h2>
+</li>
+</ol>
+<ul>
+<li>break</li>
+<li>continue</li>
+<li>return</li>
+</ul>
+<h2 id="if语句">if语句</h2>
+<ul>
+<li>if语句是分支语句,也可以叫做条件语句</li>
+<li>第一种写法:<!-- raw HTML omitted -->
+<pre><code>if(布尔表达式)
+ {
+  java语句
+ }
+</code></pre></li>
+</ul>
+<p>该语法的执行原理是:<!-- raw HTML omitted -->
+如何布尔表达式的结果是true,则执行大括号的中的程序,否则大括号中的代码不执行。</p>
+<ul>
+<li>第二种写法:<!-- raw HTML omitted -->
+<pre><code>if(布尔表达式)
+{
+ java语句
+}else{
+    java语句
+}
+</code></pre></li>
+</ul>
+<p>该语法的执行原理是:<!-- raw HTML omitted -->
+如果布尔表达式的结果式true,则执行分支1,分支2不执行.如果布尔表达式的结果是false,则执行分支2,分支1不执行</p>
+<ul>
+<li>第三种写法:<!-- raw HTML omitted -->
+<pre><code>if(布尔表达式1)
+{
+
+    java语句
+
+}else if(布尔表达式2){
+
+    java语句
+
+}else if(布尔表达式3){
+
+    java语句
+
+}
+</code></pre></li>
+</ul>
+<p>该语法的执行原理是:<!-- raw HTML omitted -->
+先判断布尔表达式1,如果布尔表达式1为true,则执行分支1，,然后结束整个if语句。<!-- raw HTML omitted -->
+当布尔表达式1结果是false,那么会继续判断其他分支直到找到布尔表达式为true的分支进行执行</p>
+<ul>
+<li>
+<p>注意：对于if语句来说,在任何情况下只能有一个分支执行。if语句中只要有一个分支执行了,整个if语句就结束了</p>
+</li>
+<li>
+<p>当分支中java语句只有一条,可以省略大括号</p>
+</li>
+<li>
+<p>控制语句和控制语句之间是可以相互嵌套的</p>
+</li>
+</ul>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://xuanzai99.github.io/post/javaspringboot%E5%AD%A6%E4%B9%A0/"><i class="fa fa-chevron-circle-left"></i> JavaSpringBoot学习</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://xuanzai99.github.ioindex.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+
+</body>
+
+</html>
+
